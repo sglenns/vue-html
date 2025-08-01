@@ -13,3 +13,7 @@
 
 - Add CHANGELOG.md
 - Add push workflow
+
+## 0.0.4
+
+- Add LinkComponent
