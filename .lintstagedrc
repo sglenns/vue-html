@@ -1,0 +1,4 @@
+{
+  "*.{vue,ts,css,json}": ["npm run format", "npm run lint"],
+  "*.{vue,ts}": ["npm run type-check"]
+}
