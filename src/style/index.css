@@ -1,0 +1,17 @@
+@import './variables.css';
+@import './normalize.css';
+
+:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px black;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+  color: var(--color-secondary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  font-family: var(--font-family);
+}
