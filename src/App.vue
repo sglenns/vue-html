@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import ButtonComponent from './components/ButtonComponent.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <header>header</header>
