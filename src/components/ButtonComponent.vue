@@ -27,6 +27,7 @@ const props = withDefaults(defineProps<ButtonComponentProps>(), {
   color: white;
   &:hover {
     background-color: var(--main-color-hover);
+    color: white;
   }
   &:disabled {
     background-color: var(--main-color-disabled);
@@ -38,6 +39,12 @@ const props = withDefaults(defineProps<ButtonComponentProps>(), {
   border-color: var(--main-color);
   background-color: white;
   color: var(--main-color);
+  &:hover {
+    color: white;
+  }
+  &:disabled {
+    color: var(--main-color);
+  }
 }
 
 /** SIZES */
