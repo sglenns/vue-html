@@ -21,7 +21,6 @@ const props = withDefaults(defineProps<LinkComponentProps>(), {
   color: var(--main-color);
   &:hover {
     color: var(--main-color-hover);
-    text-decoration: underline;
   }
   &:visited {
     color: var(--main-color-visited);
